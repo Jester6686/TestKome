@@ -1,0 +1,90 @@
+@media  (max-width : 700px){
+ /* ============================================ katalog ====================================== */
+   .page_block_7.news_one .page_outer_wrapper, .page_block_7.news_one .page_inner_wrapper {
+         min-height: 2050px!important;
+    }
+   .news_one .category_page_breadcrumbs{
+       margin-left: 5px;
+   }
+    .page_title .page_title_over > div > span{
+        letter-spacing: 0;
+        text-indent: 0;
+        line-height: 35px;
+        height: 41px;
+    }
+    .page_title .page_title_under {
+        position: relative;
+        font-size: 158px;
+        line-height: 50px;
+        top: 61px;
+        height: 50px;
+        margin: 8px 0 0 0;
+        left: 0px;
+    }
+   .category_page_breadcrumbs span a{
+        background: url(../images/slider_3_link_gr.png) no-repeat right 10px;
+        padding-right: 8px;
+        font-size: 23px;
+        margin-right: 1px;
+   }
+   .news_one_conteiner{
+        top: 250px;
+        left: 0;
+        width: 100%;
+   }
+   .news_one .news_under_title{
+       margin-left:  0;
+        width: 100%;
+        margin-top: -910px;
+    }
+    .news_one .news_under_title h1{
+       margin-right: 0;
+       text-align: center;
+    }
+   .news_one_conteiner .news_one_top_txt_body{
+       width: 100%;
+       height: 550px;
+       left: 0;
+       margin-left: 0;
+       margin-top: -650px;
+   }
+   .news_one_midlle .news_one_big_photo{
+      margin-left: 0;
+      margin-top: 610px;
+   }
+   .news_one_midlle .news_one_big_photo img {
+        height: 212px;
+        width: 320px;
+    }
+    .news_one_bottom_cont{
+        margin-top: 100px;
+    }
+    .news_one_conteiner .news_one_top_txt_body{
+        width: 97%;
+        padding: 0;
+        margin-top: -760px;
+    }
+    .news_one_bottom_txt_body{
+        margin-left: 0;
+        width: 97%;
+    }
+    .news_one_midlle .news_one_top_txt_body::before {
+         width: 67%;
+        height: 1px;
+        left: 15%;
+        top: 0;
+    
+    }
+    .news_one .articles_slider_controls_wrapper{
+        top: 443px;
+        margin-left: 4%;
+    }
+   
+    .section_footer .page_inner_wrapper{
+        top: 0;
+        margin-top: 0;
+    }
+    .footer_map_text > span:last-child {
+        margin-right: 10%;
+    }
+}

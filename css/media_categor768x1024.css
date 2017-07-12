@@ -1,0 +1,20 @@
+@media  (max-width : 1024px) {
+    .catalog_one_mode .block_5_slider_wrapper {
+        top: 5vh;
+    }
+    #section_katalog_footer{
+        display: block;
+    }
+}
+@media  (max-width : 800px)  {
+     /*==========  hide bloks & elements  ==========*/
+    .page_block_5  .page_inner_wrapper{
+        top: 5%;
+    }
+    .catalog_one_mode .block_5_slider_wrapper {
+        top: 50px;
+    }
+    .category_page_breadcrumbs{
+        margin-top: 70px;
+    }
+}

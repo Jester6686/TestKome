@@ -1,0 +1,51 @@
+.page_inner_wrapper{
+    left: 3%;
+    zoom: 0.95;
+}
+.page_title .page_title_under {
+      top: -13px;
+
+}
+.page_block_4 .page_title .page_title_under{
+    top: -9px;
+    left: 3px;
+}
+.page_block_6 .page_title_over_level_2{
+    top: 5.79px!important;
+}
+
+@media (max-width: 1600px) and  (min-width: 1025px){
+    .page_title .page_title_under{
+        top: 22px;
+    }
+    .page_block_2 .page_title{
+        top: 50px;
+    }
+    .page_block_4 .page_title .page_title_under{
+        top: 22px;
+        left: 0;
+    }
+    .page_block_5 .page_title .page_title_under{
+        top: 22px;
+    }
+    .block_6_text_block, .block_6_text_block p{
+        font-size: 17px;
+        line-height: 18px;
+    }
+    .block_6_gallery_title span{
+        font-size: 38px;
+    }
+    .page_block_6 .page_title_over_level_2{
+        top: 8.79px !important;
+    }
+    .page_block_7 .page_title .page_title_under{
+        top: 22px;
+    }
+    .footer_map_text > span{
+        margin-right: 3vw;
+    }
+    .about_us_photo{
+        margin: 2vh 0 0vh 0;
+    }
+}
+

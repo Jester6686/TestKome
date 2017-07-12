@@ -1,0 +1,52 @@
+.catalog_one_mode .page_title, .catalog_one_mode .block_5_slider_wrapper {
+   top: 6vh;
+
+}
+.catalog_one{
+    min-height: 100px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+.catalog_one .page_outer_wrapper  {
+    min-height: 100vh;
+}
+.catalog_one_mode_sec2 {
+    background: none;
+    min-height: 35vh;
+    height: auto;
+}
+.about_katalog_txt {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	font-size: 22px;
+	margin: 0;
+	border: none;
+}
+.about_katalog_txt div {
+	width: 33%;
+    float: left;
+    padding-left: 0;
+    margin: 0;
+    padding: 0 0.5vw 0 1.5vw;
+	box-sizing:border-box;
+	font-size: 22px;
+    letter-spacing: .05em;
+	font-family: 'BebasNeueRegular';
+	font-variant-caps: small-caps;
+	text-align: justify;
+}
+
+.about_katalog_txt div:first-child {
+	float: left;
+	 padding: 0 1.5vw 0 1.5vw ;
+}
+.about_katalog_txt div:last-child {
+	float: right;
+	 padding: 0 1.5vw 0 1.7vw ;
+}
+#catalog_footer{
+    background: url(../images/footer_bg.jpg) no-repeat bottom center;
+    background-size: 100% 50%;
+    min-height: 95vh;
+}

@@ -1,0 +1,29 @@
+ function OrderWrapperresize() {
+        $('.to_order_wrapper').css({
+            left : (($(window).width() - $('.to_order_wrapper').width()) /2)  + 'px',
+			top : (($(window).height() - $('.to_order_wrapper').height()) /2)  + 'px'
+        });
+    }
+    function telephoneCollresize() {
+        $('.telephone_call_win').css({
+            left : (($(window).width() - $('.telephone_call_win').width()) /2)  + 'px',
+            left : (($(window).height() - $('.telephone_call_win').height()) /2)  + 'px'
+        });
+    }
+	function popupGalleryresize() {
+        $('.block_6_popup_gallery').css({
+            left : (($(window).width() / 2) - ( $('.block_6_popup_gallery_inner').width() / 2) + $('.block_6_popup_gallery_prev').width()) + 'px'
+        });
+    }
+    $(window).resize(function() {
+    	if ($(window).height() < $('.page_block_2 .page_inner_wrapper').height()){
+            disableFullPageScroll();
+		}else{
+            enableFullPageScroll();
+		}
+
+
+
+        telephoneCollresize();
+        OrderWrapperresize();
+	});

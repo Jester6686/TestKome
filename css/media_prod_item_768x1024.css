@@ -1,0 +1,271 @@
+
+    
+@media  (max-width : 1024px)  {
+     /*==========  hide bloks & elements  ==========*/
+.main_menu_wrapper  .logo.katalog_virtual{
+         left: 12%;
+     }
+ .block_6_gallery_bak_arrow, .block_6_slider_prev, .block_6_big_img_links a, 
+ .news_one .page_4_top_text_before, .page_4_top_text_after, .news_list 
+ .news_one_line_ontop, .lang_selector.inner_page_inview > span,.about_col_2_conteiner 
+ .page_4_top_text_after_right, .about_col_2_conteiner .page_4_top_text_before, .line_after_about, 
+ .prod_virtual .block_6_slider_next, .prod_virtual .block_6_slider_prev, .main_menu_wrapper.prod_virtual, 
+ .prod_item .inner_page_logo,  .invisible_inner1024{
+        display: none;
+ }
+  .right_menu_wrapper  .inner_page_inview  {
+        margin: 0 0 0 0;
+        height: 80px;
+  }
+    #prod_gallery_title_one{
+        margin-left: -20.5vw!important;
+    }
+  .block_6_slider_item {
+        margin-top: 0 !important;
+        float: left;
+        padding: 0 5.46vw 0 0;
+        box-sizing: border-box;
+  }
+    #section_katalog_footer{
+        display: block;
+    }
+
+    .block_6_big_img_links a{
+        left: -9px;
+        color: #9f9f9f;
+        display: block;
+        top: 69px;
+        position: relative;
+        background: url(../images/slider_3_link_gr.png) no-repeat right 6px;
+    }
+    #next {
+    -webkit-region-fragment: disable;
+    stroke-linejoin: 156!important;
+    backface-visibility: none;
+    wrap-option: 0 254 0 15%;
+    align-items: flex-start;
+     }
+    .right_menu_wrapper   .inner_page_inview  ul{
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+	.right_menu_wrapper .gallery_right >  ul > li:nth-child(2), .right_menu_wrapper .gallery_right >  ul  > li:last-child{
+		display: none;
+	}
+	
+   .right_menu_wrapper   .inner_page_inview  ul  li{
+        line-height: 12px;   
+    }
+    .catalog_one_mode .page_title {
+        top: 11vh;
+    }
+     .gallery_right.katalog_virtual{
+         margin-top: 2vh;
+     }
+     .right_menu_wrapper .gallery_right.katalog_virtual span{
+        font-size: 30px;
+        margin-left: -25px;
+     }
+     .tables_main{
+          background-image: none;
+      }
+      .categor_virtual .block_5_slider_next{
+          background: url(../images/slider5_arrow_right_dark.svg);
+           background-position: center center;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        right: -30px;
+      }
+  
+   
+     .inner_page_breadcrumbs.categor_virtual{
+	    top: 2%; 
+        left: 10.5%; 
+    }
+     .inner_page_breadcrumbs.prod_virtual{ 
+        left: 5%;
+        top: 0;
+        width: 50vw;
+    }
+    .block_6_slider .prod_virtual {
+         width: 80%;
+        float: right;
+        position: relative;
+        margin-right: 0;
+    }
+    .block_6_slider .prod_virtual{
+        left: 0;
+        top: 12vh;
+    }
+	.inner_page_breadcrumbs {
+    	position: absolute;
+    	top: 52px;
+    	left: 0;
+    	width: 31vw;
+    	z-index: 100;
+	}
+	.block_6_slider {
+        width: 90%;
+        left: 0;
+    }
+	.article_virtual .news_one_midlle{
+		margin-top: 0;
+	}
+	
+	.news_one_midlle .news_one_big_photo img{
+		height: 326px;
+		width:auto;
+	}	
+	 .news_one .news_under_title {
+    	text-align: left;
+   	 	width: 90%;
+   	 	margin-left: 10%;
+		margin-top: -810px;
+	}
+	.page_block_6 .page_outer_wrapper, .page_block_6 .page_inner_wrapper{
+		    height: 640px!important;
+			background: none;
+			overflow:hidden;
+			
+	}
+	.news_one .articles_slider_controls_wrapper::before{
+		display: none;
+	}
+	
+	.block_6_gallery_title {
+        border-bottom: none;
+    }
+	.block_6_slider_item {
+        float: left;
+        padding: 0 5.46vw 0 0;
+        box-sizing: border-box;
+    }
+	.block_6_bottom_gallery {
+        float: left;
+        position: relative;
+        margin-right: auto;
+        margin-left: 0;
+        top: 10px;
+        left: 0;
+    }
+    .block_6_gallery_container{
+        display: none;
+    }
+    .block_6_slider_item{
+        width: 800px;
+    }
+    .block_6_bottom_blocks {
+        margin-top: 0;
+    }
+    .block_6_gallery_big_img {
+        height: 275px;
+        width: 360px;
+        margin-left: 0;
+        margin-top: 70px;
+        float: left;
+    }
+    .block_6_gallery_title {
+        position: absolute;
+        top: 30px;
+    }
+    .block_6_gallery_title::after {
+        top: 40px;
+        width: 140%;
+        padding: 0 0 0 0;
+   
+    }
+    .block_6_text_block {
+        top: 40px;;
+        right: 0;
+        position: relative;
+        width: 300px;
+        height: 265px;
+        display: none;
+    }
+    .page_block_6 .page_inner_wrapper{
+        padding-top: 0;
+    }
+    .category_page_breadcrumbs {
+        margin-top: 0;
+    }
+    .prod_iten_txt_first, .prod_iten_txt_add{
+        position: absolute;
+        font-size: 22px;
+        letter-spacing: 0.04em;
+        line-height: 22px;
+        font-size-adjust: 0.7;
+        text-align: left;
+        overflow: hidden;
+        height: 270px;
+        width: 50%;
+        top: 100px;
+        left: 390px;
+    }
+    .prod_iten_txt_add{
+        left: 0;
+        top: 400px;
+        padding-top: -178px;
+        width: 100%;
+         height: 475px;
+    }
+    .section_footer > .page_outer_wrapper{
+        height: 827px;
+    }
+}
+
+@media  (max-width : 800px)  {
+     /*==========  hide bloks & elements  ==========*/
+    .main_menu_wrapper  .logo.katalog_virtual{
+         left: 12%;
+     }
+    .catalog_one_mode .block_5_slider_wrapper {
+        top: 40vh;
+    }
+    .right_menu_wrapper   .inner_page_inview  ul{
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+   .right_menu_wrapper   .inner_page_inview  ul  li{
+        line-height: 12px;   
+    }
+    .catalog_one_mode .page_title {
+        top: 15vh;
+    }
+     .gallery_right.katalog_virtual{
+         margin-top: 2vh;
+     }
+     .right_menu_wrapper .gallery_right.katalog_virtual span{
+        font-size: 30px;
+        margin-left: -25px;
+     }
+     .block_5_slider_container .categor_virtual{
+        height: 100%;
+     }
+      .categor_virtual .block_5_slider_next,  .categor_virtual .block_5_slider_prev {
+         top: 33%;
+    }
+    .category_page_breadcrumbs.aboutus_virtual {
+    	margin-left: 0;
+	}
+    .page_block_6 .page_outer_wrapper, .page_block_6 .page_inner_wrapper{
+		 min-height: 728px!important;
+			background: none;
+			overflow:hidden;
+	}
+    .prod_iten_txt_first{
+        width: 45%;
+        height: 288px;
+    }
+
+
+}
+@-moz-document url-prefix(){
+	@media  (max-width : 800px){
+		.about_us_photo img {
+    	  margin-top: -50px;
+		}
+		.about_col_2_conteiner > div:nth-child(4) {
+    		margin-top: 350px;
+		}
+	}
+}

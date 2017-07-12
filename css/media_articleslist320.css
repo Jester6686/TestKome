@@ -1,0 +1,164 @@
+@media  (max-width : 700px){
+ /* ============================================ katalog ====================================== */
+    .page_block_7 .page_outer_wrapper, .page_block_7 .page_inner_wrapper {
+        min-height: 1570px!important;
+    }
+    .news_list .inner_page_breadcrumbs .category_page_breadcrumbs {
+    margin-top: 10px;
+    margin-left: 15px;
+    }
+    .page_title .page_title_over > div > span{
+        letter-spacing: 0;
+        text-indent: 0;
+        line-height: 35px;
+        height: 41px;
+    }
+    .page_title.about_title .page_title_under {
+        position: relative;
+        font-size: 158px;
+        line-height: 50px;
+        top: 46px;
+        height: 50px;
+        margin: 8px 0 0 0;
+        left: 0px;
+    }
+    .page_block_7 .page_title .page_title_under{
+        top: 61px;
+        left: 1px;
+    }
+   .news_list  .page_title.articles_list_title{
+        top: 90px;
+        margin-left: 5%;
+    }
+    .news_under_title.news_list_virtual h1{
+        text-align: center;
+    }
+    .news_list  .news_under_title {
+        text-align: left;
+        float: none;
+        margin-left: 0;
+        text-align: center;
+        font-size: 40px;
+        margin-right: auto;
+        width: 100%;
+    }
+    .main_news_on_list {
+        top: 240px;
+    }
+    .news_one_midlle .news_one_top_txt_body{
+        width: 100%;
+        position: relative;
+        margin-top: 370px;
+        margin-left: 0;
+        height: 710px;
+    }
+    .main_news_on_list{
+        left: 0;
+        padding: 0 10px 0 10px;
+    }
+     .news_one_midlle .news_one_top_txt_body{
+        width: 95%;
+    }
+    .news_one_midlle .news_one_big_photo {
+        margin-top: 60px;
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        height: 212px;
+        margin-bottom: -410px;
+    }
+   .news_one_midlle .news_one_big_photo::before{
+        width: 65%;
+        left: 10%;
+        height: 1px;
+        right: auto;
+    }
+    .news_one_midlle .news_one_big_photo img {
+        height: 212px;
+        width: 312px;
+        float: right;
+        margin-right: 0;
+        width: auto;
+    }
+     .news_one_midlle .news_one_top_txt_body{
+        margin-top: 0;
+        top: 280px;
+        height: 680px;
+        padding-top: 0;
+    }
+     .news_list_bottom_container > ul > li{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .news_list_bottom img{
+        width: 160px;
+        height: 106px;
+        float: left;
+        margin-right: 10px;
+    }
+     .news_list_bottom_container{
+        position: relative;
+        top: 280px;
+        padding-top: 0;
+        height: 400px;
+    }
+    .articles_slider_controls_wrapper.read_main_news{
+        top: 572px;
+        height: 50px;
+    }
+    .news_list_bottom_container .news_list_bottom p {
+        display: none;
+    }
+     .articles_slider_controls_wrapper.read_main_news a {
+        left: auto;
+        display: block;
+        top: 50px;
+        right: 0;
+         height: 20px;
+    }
+     .page_no_switcher {
+        position: relative;
+        top: 10px;
+        float: left;
+    }
+    .news_list_bottom span{
+       line-height: 23px;
+       text-align: left;
+    }
+    .news_item_onbottom .articles_slider_controls_wrapper {
+        width: 40%;
+        left: 128px;
+        background: none;
+        top: 88px;
+    }
+    /**************************/
+    .page_title .page_title_over {
+        width: 90vw;
+    }
+    .news_one_midlle .news_one_top_txt_body.invisible_if_big{
+        display: none;
+    }
+    .news_list_bottom {
+        height: 110px;
+        text-align: left;
+    }
+    #section10{
+        height: 1340px;
+    }
+    .footer_map_container{
+        margin-top: 0;
+    }
+    .footer_map_text{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .footer_map_text > span:last-child {
+        margin-right: 10%;
+    }
+}
+@media  (max-width : 700px) {
+    .page_no_switcher {
+        font-size: 21px;
+    }
+}

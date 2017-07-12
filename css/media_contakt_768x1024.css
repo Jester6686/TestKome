@@ -1,0 +1,238 @@
+
+    .katalog_virtual{}
+    .categor_virtual{}
+    .prod_virtual{}
+	.aboutus_virtual{}
+	.article_virtual{}
+	.news_list_virtual{}
+@media  (max-width : 1024px)  {
+     /*==========  hide bloks & elements  ==========*/
+.main_menu_wrapper  .logo.katalog_virtual{
+         left: 12%;
+     }
+ #section_about, .news_list_virtual .news_list_bottom_container > ul > li:last-child, 
+ .news_one .page_4_top_text_before, .page_4_top_text_after, .news_list 
+ .news_one_line_ontop, .lang_selector.inner_page_inview > span,.about_col_2_conteiner 
+ .page_4_top_text_after_right, .about_col_2_conteiner .page_4_top_text_before, .line_after_about, 
+ .prod_virtual .block_6_slider_next, .prod_virtual .block_6_slider_prev, .main_menu_wrapper.prod_virtual, 
+ .prod_item .inner_page_logo,  .invisible_inner1024{
+        display: none;
+    }
+  .right_menu_wrapper  .inner_page_inview  {
+        margin: 0 0 0 0;
+        height: 80px;
+    }
+    .right_menu_wrapper   .inner_page_inview  ul{
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+	.right_menu_wrapper .gallery_right >  ul > li:nth-child(2), .right_menu_wrapper .gallery_right >  ul  > li:last-child{
+		display: none;
+	}
+	
+   .right_menu_wrapper   .inner_page_inview  ul  li{
+        line-height: 12px;   
+    }
+    .catalog_one_mode .page_title {
+        top: 11vh;
+    }
+     .gallery_right.katalog_virtual{
+         margin-top: 2vh;
+     }
+     .right_menu_wrapper .gallery_right.katalog_virtual span{
+        font-size: 30px;
+        margin-left: -25px;
+     }
+     .tables_main{
+          background-image: none;
+      }
+      .categor_virtual .block_5_slider_next{
+          background: url(../images/slider5_arrow_right_dark.svg);
+           background-position: center center;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        right: -30px;
+      }
+    .catalog_one_mode .block_5_slider_wrapper {
+        top: 25vh;
+    }
+     .categor_virtual .block_5_slider_prev {
+         background: url(../images/slider5_arrow_left_dark.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        left: -30px;
+    }
+     .categor_virtual .block_5_slider_prev:hover, .categor_virtual .block_5_slider_next:hover {
+         opacity: 1!important;
+     }
+    .inner_page_breadcrumbs.categor_virtual{
+	    top: 2%; 
+        left: 10.5%; 
+    }
+    .block_5_slider_wrapper{
+        margin-top: 10%;
+    }
+    .categor_virtual .block_5_slider_wrapper{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .inner_page_breadcrumbs.prod_virtual{ 
+        left: 5%;
+        top: 0;
+        width: 50vw;
+    }
+    .block_6_slider .prod_virtual {
+         width: 80%;
+        float: right;
+        position: relative;
+        margin-right: 0;
+    }
+    .block_6_slider .prod_virtual{
+        left: 0;
+        top: 12vh;
+    }
+	.inner_page_breadcrumbs {
+    	position: absolute;
+    	top: 52px;
+    	left: 0;
+    	width: 31vw;
+    	z-index: 100;
+	}
+	.category_page_breadcrumbs.aboutus_virtual{
+		margin-left: 10%;
+	}
+	.section_footer.contact_section {
+   		 background-size: 100% 30%;
+    	background-position: center bottom;
+	}
+	.contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_map_wrapper {
+    	margin: 0 0 10px 0;
+	}
+	.contact_section > .page_outer_wrapper {
+    	min-height: 155vh;
+	}
+	.contact_section > .page_outer_wrapper > .page_inner_wrapper {
+    	margin-left: 0;
+		width: 100%;
+		margin-right: 0;
+	}
+	.contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_map_wrapper > .footer_map_container {
+    	padding: 0;
+    	width: 100%;
+    	top: 0;
+		float: left;
+	}
+	.contact_section > .page_outer_wrapper > .page_inner_wrapper > .inner_page_breadcrumbs {
+    	left: 7%;
+	}
+	.contact_page_title {
+    	top: 55px;
+    	float: right;
+    	margin-right: 50%;
+	}
+	.contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_slogan_wrapper {
+    	width: 100%;
+    	text-align: center;
+    	float: left;
+    	margin-top: 0;
+		position: absolute;
+		top: 300px;
+    	z-index: 510;
+	}
+
+	.footer_slogan_wrapper span {
+		text-align: center;
+    	float: none;
+		width: 90%;
+    	right: 10%;
+	}
+	.page_inner_wrapper .contact_phones {
+		position: absolute;
+		top: 700px;
+    	margin-top: 0;
+    	margin-right: 20px;
+    	width: 100%;
+    	text-align: right;
+	}
+	.contact_phones span {
+		position: relative;
+    	margin-top: 0;
+    	margin-right: 40px;
+    	width: 27%;
+    	float: left;
+    	text-align: right;
+	}
+	.contact_phones:before{
+		display: none;
+	}
+	.contact_phones.wellcome_box{
+		position: absolute;
+		top: 700px;
+    	margin-top: 0;
+    	margin-right: 0;
+    	width: 100%;
+		left: 65%;
+    	text-align: right;
+	}
+	.contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_social_wrapper {
+    	position: absolute;
+		top: 870px;
+		right:3%; 
+	}
+	.contact_section > .page_outer_wrapper, .contact_section > .page_outer_wrapper > .page_inner_wrapper {
+    	    min-height: 1380px !important;
+	}
+	.contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_map_wrapper {
+    	position: absolute;
+		top: 950px;
+	}
+	.footer_menu_wrapper {
+    	position: absolute;
+		top: 1280px;
+    	margin-bottom: 80px;
+	}
+	
+	.order_on_contact .to_order_form .to_order_title{
+		margin-top: 40px;
+	}
+}
+
+@media  (max-width : 800px)  {
+     /*==========  hide bloks & elements  ==========*/
+    .main_menu_wrapper  .logo.katalog_virtual{
+         left: 12%;
+     }
+    .catalog_one_mode .block_5_slider_wrapper {
+        top: 40vh;
+    }
+    .right_menu_wrapper   .inner_page_inview  ul{
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+   .right_menu_wrapper   .inner_page_inview  ul  li{
+        line-height: 12px;   
+    }
+   
+	.contact_section > .page_outer_wrapper, .contact_section > .page_outer_wrapper > .page_inner_wrapper {
+    	    min-height: 1410px !important;
+	}
+	.footer_slogan_wrapper span {
+    	margin-top: 50px;
+	}
+	.order_on_contact .to_order_form .to_order_title {
+    	margin-top: 20px;
+	}
+
+}
+@-moz-document url-prefix(){
+	@media  (max-width : 800px){
+		.about_us_photo img {
+    	  margin-top: -50px;
+		}
+		.about_col_2_conteiner > div:nth-child(4) {
+    		margin-top: 350px;
+		}
+	}
+}

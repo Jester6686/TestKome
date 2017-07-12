@@ -1,0 +1,126 @@
+@media  (max-width : 700px){
+ /* ============================================ katalog ====================================== */
+    .news_list_virtual .page_outer_wrapper, .news_list_virtual .page_inner_wrapper {
+        min-height: 1520px!important;
+    }
+    .category_page_breadcrumbs {
+    margin-top: 10px;
+    margin-left: -15px;
+    }
+   .page_title.news_add_title {
+       top: 46px;
+        margin-left: 5%;
+    }
+    .news_under_title.news_list_virtual h1{
+        text-align: center;
+    }
+    .news_one_title {
+        margin-right: 20%;
+    }
+    .page_title .page_title_over > div > span{
+        letter-spacing: 0;
+        text-indent: 0;
+        line-height: 35px;
+        height: 41px;
+    }
+    .page_block_7 .page_title .page_title_under {
+        position: relative;
+        font-size: 158px;
+        line-height: 50px;
+        top: 61px;
+        height: 50px;
+        margin: 8px 0 0 0;
+        left: 0px;
+    }
+    .news_under_title.news_list_virtual {
+        text-align: left;
+        float: none;
+        margin-left: 0;
+        text-align: center;
+        font-size: 40px;
+        margin-right: auto;
+        width: 100%;
+    }
+    .news_list_virtual .main_news_on_list {
+        top: 240px;
+    }
+    .news_list_virtual .news_one_midlle .news_one_top_txt_body{
+        width: 100%;
+        position: relative;
+        margin-top: 370px;
+        margin-left: 0;
+        height: 710px;
+    }
+    .main_news_on_list{
+        left: 0;
+        padding: 0 10px 0 10px;
+    }
+    .news_list_virtual .news_one_midlle .news_one_top_txt_body{
+        width: 95%;
+    }
+    .news_list_virtual .news_one_midlle .news_one_big_photo {
+        margin-top: 60px;
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        height: 212px;
+        margin-bottom: -410px;
+    }
+    .news_one_big_photo::before{
+        width: 70%;
+        left: 15%;
+        height: 1px;
+        right: 15%;
+    }
+    .news_one_midlle .news_one_big_photo img {
+        height: 212px;
+        width: auto;
+    }
+    .news_list_virtual .news_one_midlle .news_one_top_txt_body{
+        margin-top: 280px;
+        height: 700px;
+        padding-top: 0;
+    }
+    .news_list_virtual .news_list_bottom_container > ul > li{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .news_list_bottom img{
+        width: 160px;
+        height: 106px;
+        float: left;
+        margin-right: 10px;
+    }
+    .news_list_virtual .news_list_bottom_container{
+        top: 0;
+        padding-top: 0;
+    }
+    .news_list_virtual .articles_slider_controls_wrapper.read_main_news{
+        top: 175px;
+        height: 50px;
+    }
+    .news_item_onbottom .news_list_bottom p{
+        display: none;
+    }
+    .news_list_virtual .articles_slider_controls_wrapper.read_main_news a {
+        left: auto;
+        right: 0;
+    }
+    .news_list_virtual .page_no_switcher {
+        position: relative;
+        top: 10px;
+        float: left;
+    }
+    .news_list_bottom span{
+       line-height: 23px;
+    }
+    .news_list_virtual .news_item_onbottom .articles_slider_controls_wrapper {
+        width: 40%;
+        left: 128px;
+        background: none;
+        top: 0;
+    }
+    .footer_map_text > span:last-child {
+        margin-right: 10%;
+    }
+}

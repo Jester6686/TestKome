@@ -1,0 +1,22 @@
+@media  (max-width : 700px){
+   
+   .page_inner_wrapper .catalog_one_mode .categor_virtual{
+        padding: 0;
+        margin: 0;
+    }
+   .page_block_5 .page_outer_wrapper, .page_inner_wrapper .catalog_one_mode .categor_virtual{
+       min-height: 550px;
+        height: 580px;
+   }
+   .invisible_at800,.block_5_slider_prev, .block_5_slider_next{
+       display: none;
+   }
+   .catalog_one_mode .block_5_slider_wrapper{
+       top: 50px;
+       width: 100%;
+       padding: 0;
+       margin-left: 0;
+       margin-right: 0;
+   }
+  
+}
