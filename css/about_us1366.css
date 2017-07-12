@@ -14,6 +14,7 @@
 .section_footer .page_outer_wrapper{
     height: 839px;
 }
+/*http://jetbrains-server.ru:1017*/
 @media  (max-width: 1800px) and  (min-width: 1025px) {
     p{
         font-size: 20px;
